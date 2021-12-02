@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	background-color: #f8f8f8;
+}
+.box-formulir {
+	width: 50%;
+	margin: 100px auto;
+}
+.box {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 5px 0 25px;
+}
+.tabel-data {
+	width: 100%; 
+}
+.tabel-data tr td:nth-child(1) {
+	width: 30%;
+}
+.input-data {
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.tombol-simpan {
+	padding: 10px 17px;
+	background-color: #FF9033;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+.tombol-simpan:hover {
+	cursor: pointer;
+	background-color: #BC6C29;
+}
+#kamera {
+	width: 320px;
+	height: 240px;
+}
+.input-control {
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.btn-daftar{
+	padding: 10px 17px;
+	background-color: #4A99D7;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.btn-daftar:hover {
+	cursor: pointer;
+	background-color: #4881AE;
+}
+.btn-cetak {
+	display: inline-block;
+	padding: 10px 17px;
+	color: #fff;
+	background-color: #FF5733;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.table-data {
+	width: 100%;
+	margin-top: 10px;
+}
+.table-data tr{
+	height: 35px;
+}
+.table-data tr td:nth-child(1) {
+	width: 30%;
+}
+.main-login {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.box-login {
+	width: 320px;
+	min-height: 200px;
+}
+.box-login h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.btn-login {
+	padding: 7px 20px;
+	background-color: #C70039;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.btn-login:hover {
+	cursor: pointer;
+	background-color: #900C3F;
+}
+
+@media screen and (max-width: 768px) {
+	.box-formulir {
+		width: 90%;
+	}
+}
